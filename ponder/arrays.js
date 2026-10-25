@@ -60,7 +60,7 @@ let totalPoints = gpaPoints.reduce(getTotal);
 function getTotal(total, item){
     return total + item;
 }
-console.lof(totalPoints);
+console.log(totalPoints);
 
 let gpaAverage = totalPoints/gpaPoints.length;
 console.log(gpaAverage);
@@ -79,12 +79,12 @@ console.log(shortWords);
 
 const myArray = [12, 34, 21, 54];
 const luckyNumber = 21;
-let luckyIndex = myArray.indexOf(lickyNumber);
+let luckyIndex = myArray.indexOf(luckyNumber);
 console.log(luckyIndex);
 
 //dynamic content
 
-let container = document.querySelector('studentContainer');
+let container = document.querySelector('#studentContainer');
 
 
 const students = [
@@ -104,6 +104,6 @@ students.forEach(function(item){
     `;
     name.innerHTML = html;
     container.appendChild(name);
-});
-          
+})
+console.log(container);
 
